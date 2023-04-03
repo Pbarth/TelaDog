@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D907FE9B29DA58DF009A371E /* TelaDogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FE9A29DA58DF009A371E /* TelaDogApp.swift */; };
+		D907FE9D29DA58DF009A371E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FE9C29DA58DF009A371E /* ContentView.swift */; };
+		D907FE9F29DA58E1009A371E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D907FE9E29DA58E1009A371E /* Assets.xcassets */; };
+		D907FEA329DA58E1009A371E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D907FEA229DA58E1009A371E /* Preview Assets.xcassets */; };
+		D907FEAD29DA58E2009A371E /* TelaDogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FEAC29DA58E2009A371E /* TelaDogTests.swift */; };
+		D907FEB729DA58E2009A371E /* TelaDogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FEB629DA58E2009A371E /* TelaDogUITests.swift */; };
+		D907FEB929DA58E2009A371E /* TelaDogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FEB829DA58E2009A371E /* TelaDogUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D907FEA929DA58E2009A371E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D907FE8F29DA58DF009A371E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D907FE9629DA58DF009A371E;
+			remoteInfo = TelaDog;
+		};
+		D907FEB329DA58E2009A371E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D907FE8F29DA58DF009A371E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D907FE9629DA58DF009A371E;
+			remoteInfo = TelaDog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D907FE9729DA58DF009A371E /* TelaDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelaDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D907FE9A29DA58DF009A371E /* TelaDogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDogApp.swift; sourceTree = "<group>"; };
+		D907FE9C29DA58DF009A371E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D907FE9E29DA58E1009A371E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D907FEA029DA58E1009A371E /* TelaDog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TelaDog.entitlements; sourceTree = "<group>"; };
+		D907FEA229DA58E1009A371E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D907FEA829DA58E2009A371E /* TelaDogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelaDogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D907FEAC29DA58E2009A371E /* TelaDogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDogTests.swift; sourceTree = "<group>"; };
+		D907FEB229DA58E2009A371E /* TelaDogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelaDogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D907FEB629DA58E2009A371E /* TelaDogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDogUITests.swift; sourceTree = "<group>"; };
+		D907FEB829DA58E2009A371E /* TelaDogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D907FE9429DA58DF009A371E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D907FEA529DA58E2009A371E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D907FEAF29DA58E2009A371E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D907FE8E29DA58DF009A371E = {
+			isa = PBXGroup;
+			children = (
+				D907FE9929DA58DF009A371E /* TelaDog */,
+				D907FEAB29DA58E2009A371E /* TelaDogTests */,
+				D907FEB529DA58E2009A371E /* TelaDogUITests */,
+				D907FE9829DA58DF009A371E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D907FE9829DA58DF009A371E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D907FE9729DA58DF009A371E /* TelaDog.app */,
+				D907FEA829DA58E2009A371E /* TelaDogTests.xctest */,
+				D907FEB229DA58E2009A371E /* TelaDogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D907FE9929DA58DF009A371E /* TelaDog */ = {
+			isa = PBXGroup;
+			children = (
+				D907FE9A29DA58DF009A371E /* TelaDogApp.swift */,
+				D907FE9C29DA58DF009A371E /* ContentView.swift */,
+				D907FE9E29DA58E1009A371E /* Assets.xcassets */,
+				D907FEA029DA58E1009A371E /* TelaDog.entitlements */,
+				D907FEA129DA58E1009A371E /* Preview Content */,
+			);
+			path = TelaDog;
+			sourceTree = "<group>";
+		};
+		D907FEA129DA58E1009A371E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D907FEA229DA58E1009A371E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D907FEAB29DA58E2009A371E /* TelaDogTests */ = {
+			isa = PBXGroup;
+			children = (
+				D907FEAC29DA58E2009A371E /* TelaDogTests.swift */,
+			);
+			path = TelaDogTests;
+			sourceTree = "<group>";
+		};
+		D907FEB529DA58E2009A371E /* TelaDogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D907FEB629DA58E2009A371E /* TelaDogUITests.swift */,
+				D907FEB829DA58E2009A371E /* TelaDogUITestsLaunchTests.swift */,
+			);
+			path = TelaDogUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D907FE9629DA58DF009A371E /* TelaDog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D907FEBC29DA58E2009A371E /* Build configuration list for PBXNativeTarget "TelaDog" */;
+			buildPhases = (
+				D907FE9329DA58DF009A371E /* Sources */,
+				D907FE9429DA58DF009A371E /* Frameworks */,
+				D907FE9529DA58DF009A371E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelaDog;
+			productName = TelaDog;
+			productReference = D907FE9729DA58DF009A371E /* TelaDog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D907FEA729DA58E2009A371E /* TelaDogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D907FEBF29DA58E2009A371E /* Build configuration list for PBXNativeTarget "TelaDogTests" */;
+			buildPhases = (
+				D907FEA429DA58E2009A371E /* Sources */,
+				D907FEA529DA58E2009A371E /* Frameworks */,
+				D907FEA629DA58E2009A371E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D907FEAA29DA58E2009A371E /* PBXTargetDependency */,
+			);
+			name = TelaDogTests;
+			productName = TelaDogTests;
+			productReference = D907FEA829DA58E2009A371E /* TelaDogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D907FEB129DA58E2009A371E /* TelaDogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D907FEC229DA58E2009A371E /* Build configuration list for PBXNativeTarget "TelaDogUITests" */;
+			buildPhases = (
+				D907FEAE29DA58E2009A371E /* Sources */,
+				D907FEAF29DA58E2009A371E /* Frameworks */,
+				D907FEB029DA58E2009A371E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D907FEB429DA58E2009A371E /* PBXTargetDependency */,
+			);
+			name = TelaDogUITests;
+			productName = TelaDogUITests;
+			productReference = D907FEB229DA58E2009A371E /* TelaDogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D907FE8F29DA58DF009A371E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D907FE9629DA58DF009A371E = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D907FEA729DA58E2009A371E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D907FE9629DA58DF009A371E;
+					};
+					D907FEB129DA58E2009A371E = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D907FE9629DA58DF009A371E;
+					};
+				};
+			};
+			buildConfigurationList = D907FE9229DA58DF009A371E /* Build configuration list for PBXProject "TelaDog" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D907FE8E29DA58DF009A371E;
+			productRefGroup = D907FE9829DA58DF009A371E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D907FE9629DA58DF009A371E /* TelaDog */,
+				D907FEA729DA58E2009A371E /* TelaDogTests */,
+				D907FEB129DA58E2009A371E /* TelaDogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D907FE9529DA58DF009A371E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D907FEA329DA58E1009A371E /* Preview Assets.xcassets in Resources */,
+				D907FE9F29DA58E1009A371E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D907FEA629DA58E2009A371E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D907FEB029DA58E2009A371E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D907FE9329DA58DF009A371E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D907FE9D29DA58DF009A371E /* ContentView.swift in Sources */,
+				D907FE9B29DA58DF009A371E /* TelaDogApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D907FEA429DA58E2009A371E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D907FEAD29DA58E2009A371E /* TelaDogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D907FEAE29DA58E2009A371E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D907FEB729DA58E2009A371E /* TelaDogUITests.swift in Sources */,
+				D907FEB929DA58E2009A371E /* TelaDogUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D907FEAA29DA58E2009A371E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D907FE9629DA58DF009A371E /* TelaDog */;
+			targetProxy = D907FEA929DA58E2009A371E /* PBXContainerItemProxy */;
+		};
+		D907FEB429DA58E2009A371E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D907FE9629DA58DF009A371E /* TelaDog */;
+			targetProxy = D907FEB329DA58E2009A371E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D907FEBA29DA58E2009A371E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D907FEBB29DA58E2009A371E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D907FEBD29DA58E2009A371E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TelaDog/TelaDog.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TelaDog/Preview Content\"";
+				DEVELOPMENT_TEAM = SNQ3QBLD3K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barthelemy.TelaDog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D907FEBE29DA58E2009A371E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TelaDog/TelaDog.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TelaDog/Preview Content\"";
+				DEVELOPMENT_TEAM = SNQ3QBLD3K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barthelemy.TelaDog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D907FEC029DA58E2009A371E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNQ3QBLD3K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barthelemy.TelaDogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelaDog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TelaDog";
+			};
+			name = Debug;
+		};
+		D907FEC129DA58E2009A371E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNQ3QBLD3K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barthelemy.TelaDogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelaDog.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TelaDog";
+			};
+			name = Release;
+		};
+		D907FEC329DA58E2009A371E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNQ3QBLD3K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barthelemy.TelaDogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelaDog;
+			};
+			name = Debug;
+		};
+		D907FEC429DA58E2009A371E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SNQ3QBLD3K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.barthelemy.TelaDogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelaDog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D907FE9229DA58DF009A371E /* Build configuration list for PBXProject "TelaDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D907FEBA29DA58E2009A371E /* Debug */,
+				D907FEBB29DA58E2009A371E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D907FEBC29DA58E2009A371E /* Build configuration list for PBXNativeTarget "TelaDog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D907FEBD29DA58E2009A371E /* Debug */,
+				D907FEBE29DA58E2009A371E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D907FEBF29DA58E2009A371E /* Build configuration list for PBXNativeTarget "TelaDogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D907FEC029DA58E2009A371E /* Debug */,
+				D907FEC129DA58E2009A371E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D907FEC229DA58E2009A371E /* Build configuration list for PBXNativeTarget "TelaDogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D907FEC329DA58E2009A371E /* Debug */,
+				D907FEC429DA58E2009A371E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D907FE8F29DA58DF009A371E /* Project object */;
+}
