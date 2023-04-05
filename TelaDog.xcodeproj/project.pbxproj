@@ -14,6 +14,21 @@
 		D907FEAD29DA58E2009A371E /* TelaDogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FEAC29DA58E2009A371E /* TelaDogTests.swift */; };
 		D907FEB729DA58E2009A371E /* TelaDogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FEB629DA58E2009A371E /* TelaDogUITests.swift */; };
 		D907FEB929DA58E2009A371E /* TelaDogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FEB829DA58E2009A371E /* TelaDogUITestsLaunchTests.swift */; };
+		D907FEC629DA592D009A371E /* DogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FEC529DA592D009A371E /* DogListView.swift */; };
+		D907FECB29DA59C8009A371E /* DogList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FECA29DA59C8009A371E /* DogList.swift */; };
+		D907FECD29DA5A04009A371E /* DogListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FECC29DA5A04009A371E /* DogListViewModel.swift */; };
+		D907FECF29DB1E33009A371E /* DogDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FECE29DB1E33009A371E /* DogDetailsView.swift */; };
+		D907FED129DB1EB9009A371E /* DogDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FED029DB1EB9009A371E /* DogDetailsViewModel.swift */; };
+		D907FED429DCBC5F009A371E /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FED329DCBC5F009A371E /* NetworkRequest.swift */; };
+		D907FED629DCBD48009A371E /* NetworkHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FED529DCBD48009A371E /* NetworkHeader.swift */; };
+		D907FED829DCBD7A009A371E /* NetworkEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FED729DCBD7A009A371E /* NetworkEnum.swift */; };
+		D907FEDA29DCBDCC009A371E /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FED929DCBDCC009A371E /* NetworkError.swift */; };
+		D907FEDD29DCBE25009A371E /* String.Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FEDC29DCBE25009A371E /* String.Extensions.swift */; };
+		D907FEDF29DCBE42009A371E /* Data.Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FEDE29DCBE42009A371E /* Data.Extensions.swift */; };
+		D907FEE129DCBE5B009A371E /* Publishers.Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FEE029DCBE5B009A371E /* Publishers.Extensions.swift */; };
+		D907FEE429DCC5BB009A371E /* URLFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FEE329DCC5BB009A371E /* URLFactory.swift */; };
+		D907FEE629DCC5CD009A371E /* DogImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FEE529DCC5CD009A371E /* DogImage.swift */; };
+		D907FEE829DCC5DF009A371E /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907FEE729DCC5DF009A371E /* Dog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +60,21 @@
 		D907FEB229DA58E2009A371E /* TelaDogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelaDogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D907FEB629DA58E2009A371E /* TelaDogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDogUITests.swift; sourceTree = "<group>"; };
 		D907FEB829DA58E2009A371E /* TelaDogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelaDogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D907FEC529DA592D009A371E /* DogListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogListView.swift; sourceTree = "<group>"; };
+		D907FECA29DA59C8009A371E /* DogList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogList.swift; sourceTree = "<group>"; };
+		D907FECC29DA5A04009A371E /* DogListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogListViewModel.swift; sourceTree = "<group>"; };
+		D907FECE29DB1E33009A371E /* DogDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDetailsView.swift; sourceTree = "<group>"; };
+		D907FED029DB1EB9009A371E /* DogDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDetailsViewModel.swift; sourceTree = "<group>"; };
+		D907FED329DCBC5F009A371E /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		D907FED529DCBD48009A371E /* NetworkHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHeader.swift; sourceTree = "<group>"; };
+		D907FED729DCBD7A009A371E /* NetworkEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEnum.swift; sourceTree = "<group>"; };
+		D907FED929DCBDCC009A371E /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		D907FEDC29DCBE25009A371E /* String.Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.Extensions.swift; sourceTree = "<group>"; };
+		D907FEDE29DCBE42009A371E /* Data.Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.Extensions.swift; sourceTree = "<group>"; };
+		D907FEE029DCBE5B009A371E /* Publishers.Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publishers.Extensions.swift; sourceTree = "<group>"; };
+		D907FEE329DCC5BB009A371E /* URLFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLFactory.swift; sourceTree = "<group>"; };
+		D907FEE529DCC5CD009A371E /* DogImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogImage.swift; sourceTree = "<group>"; };
+		D907FEE729DCC5DF009A371E /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +125,11 @@
 		D907FE9929DA58DF009A371E /* TelaDog */ = {
 			isa = PBXGroup;
 			children = (
+				D907FEDB29DCBE18009A371E /* Extensions */,
+				D907FED229DCBC4F009A371E /* Network */,
+				D907FEC929DA5943009A371E /* Models */,
+				D907FEC829DA5938009A371E /* ViewModels */,
+				D907FEC729DA5931009A371E /* Views */,
 				D907FE9A29DA58DF009A371E /* TelaDogApp.swift */,
 				D907FE9C29DA58DF009A371E /* ContentView.swift */,
 				D907FE9E29DA58E1009A371E /* Assets.xcassets */,
@@ -127,6 +162,64 @@
 				D907FEB829DA58E2009A371E /* TelaDogUITestsLaunchTests.swift */,
 			);
 			path = TelaDogUITests;
+			sourceTree = "<group>";
+		};
+		D907FEC729DA5931009A371E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D907FEC529DA592D009A371E /* DogListView.swift */,
+				D907FECE29DB1E33009A371E /* DogDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D907FEC829DA5938009A371E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D907FECC29DA5A04009A371E /* DogListViewModel.swift */,
+				D907FED029DB1EB9009A371E /* DogDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D907FEC929DA5943009A371E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D907FECA29DA59C8009A371E /* DogList.swift */,
+				D907FEE529DCC5CD009A371E /* DogImage.swift */,
+				D907FEE729DCC5DF009A371E /* Dog.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D907FED229DCBC4F009A371E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D907FEE229DCC5A8009A371E /* URLFactory */,
+				D907FED329DCBC5F009A371E /* NetworkRequest.swift */,
+				D907FED529DCBD48009A371E /* NetworkHeader.swift */,
+				D907FED729DCBD7A009A371E /* NetworkEnum.swift */,
+				D907FED929DCBDCC009A371E /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D907FEDB29DCBE18009A371E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D907FEDC29DCBE25009A371E /* String.Extensions.swift */,
+				D907FEDE29DCBE42009A371E /* Data.Extensions.swift */,
+				D907FEE029DCBE5B009A371E /* Publishers.Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D907FEE229DCC5A8009A371E /* URLFactory */ = {
+			isa = PBXGroup;
+			children = (
+				D907FEE329DCC5BB009A371E /* URLFactory.swift */,
+			);
+			path = URLFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +352,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D907FEDF29DCBE42009A371E /* Data.Extensions.swift in Sources */,
+				D907FECB29DA59C8009A371E /* DogList.swift in Sources */,
+				D907FED429DCBC5F009A371E /* NetworkRequest.swift in Sources */,
+				D907FEE129DCBE5B009A371E /* Publishers.Extensions.swift in Sources */,
+				D907FEC629DA592D009A371E /* DogListView.swift in Sources */,
 				D907FE9D29DA58DF009A371E /* ContentView.swift in Sources */,
+				D907FEE629DCC5CD009A371E /* DogImage.swift in Sources */,
+				D907FED629DCBD48009A371E /* NetworkHeader.swift in Sources */,
 				D907FE9B29DA58DF009A371E /* TelaDogApp.swift in Sources */,
+				D907FEE829DCC5DF009A371E /* Dog.swift in Sources */,
+				D907FECF29DB1E33009A371E /* DogDetailsView.swift in Sources */,
+				D907FEDD29DCBE25009A371E /* String.Extensions.swift in Sources */,
+				D907FED829DCBD7A009A371E /* NetworkEnum.swift in Sources */,
+				D907FEE429DCC5BB009A371E /* URLFactory.swift in Sources */,
+				D907FECD29DA5A04009A371E /* DogListViewModel.swift in Sources */,
+				D907FEDA29DCBDCC009A371E /* NetworkError.swift in Sources */,
+				D907FED129DB1EB9009A371E /* DogDetailsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +527,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need access to library to save images";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,6 +566,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need access to library to save images";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
